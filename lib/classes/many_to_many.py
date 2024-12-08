@@ -84,7 +84,6 @@ class Author:
 
 class Magazine:
     # Class to represent a magazine with attributes for name and category.
-
     all = []  # Class-level attribute to store all Magazine instances.
 
     def __init__(self, name, category):
@@ -96,7 +95,6 @@ class Magazine:
     @property
     def name(self):
         return self._name
-
     # Setter to validate and set the magazine's name.
     @name.setter
     def name(self, name):
